@@ -1,0 +1,5 @@
+@echo off
+
+type *.txt>>all.txt
+for /f "tokens=*" %%i in (all.txt) do echo %%i/32>>$
+move $ all.txt
